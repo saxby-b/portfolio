@@ -12,18 +12,20 @@
    ========================================================================== */
 
 html {
-  color: #222;
+ /* color: #222; */
   font-size: 1em;
   line-height: 1.4;
 }
 
 /*General Styles*/
 body {
-  width: 90%;
+  width: 90%; 
   background-color: #E8F0E4;
-  /*display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center; 
+  flex-flow: column wrap;
+  color: #351D77;
 }
 
 .content-wrapper {
@@ -71,10 +73,19 @@ ul.navigation  {
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-self: center;
+  align-items: center;
+ /* padding: 0;*/
 }
 .navigation li {
   list-style-type: none;
-  width: 20%;;
+  width: 40%;
+ /* padding: 0;*/
+}
+
+.navigation li a{
+  text-decoration: none;
+  color: #351D77;
 }
 
 
