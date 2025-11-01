@@ -88,6 +88,21 @@ ul.navigation {
 .navigation li a {
   text-decoration: none;
   color: #351d77;
+} 
+
+/*Intro Styles */
+.intro {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+
+}
+
+.intro p {
+  text-align: center;
+  width: 80%;
 }
 
 /*
