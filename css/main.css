@@ -17,6 +17,42 @@ html {
   line-height: 1.4;
 }
 
+/*General Styles*/
+body {
+  width: 90%;
+  background-color: #E8F0E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+h1, h2, h3 {
+  font-family: "Alata", serif;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/*Header Styles */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
