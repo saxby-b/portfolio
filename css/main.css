@@ -105,6 +105,37 @@ ul.navigation {
   width: 80%;
 }
 
+/*** Main Section Styles ***/
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Projects Styles */
+.projects {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.project h3, .project p {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
