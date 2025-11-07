@@ -132,6 +132,30 @@ main {
   align-items: center;
 }
 
+.site-iframe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.repo-generator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  /*height: 450px;*/
+}
+
 
 .project h3, .project p {
   width: 100%;
