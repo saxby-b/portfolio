@@ -121,6 +121,11 @@ main {
   align-items: center;
 }
 
+.projects h2 {
+  width: 100%;
+  text-align: center;
+}
+
 .project {
   width: 100%;
   justify-content: center;
@@ -132,6 +137,38 @@ main {
   width: 100%;
   text-align: center;
 }
+
+/*Project Skills and Tools Styles */
+
+.project .skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  }
+
+  .skills li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: #F4BEDC;
+    padding: 5px;
+   /* border-radius: 25%;
+    border: 2px solid #351D77;*/
+  }
+
+  .project .tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .tools li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #D4D3E9;
+  }
 
 
 
