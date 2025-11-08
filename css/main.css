@@ -19,7 +19,7 @@ html {
 
 /*General Styles*/
 body {
-  width: 90%;
+  /* width: 90%; */
   background-color: #e8f0e4;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   flex-flow: row wrap;
 }
 
@@ -112,6 +112,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #EEE4F0;
 }
 
 /* Projects Styles */
