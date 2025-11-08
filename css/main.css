@@ -197,6 +197,15 @@ iframe {
   flex-flow: row wrap;
   }
 
+ .project .skills ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   .skills li {
     list-style-type: none;
     margin-bottom: 10px;
