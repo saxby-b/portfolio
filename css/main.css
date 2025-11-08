@@ -115,16 +115,15 @@ main {
 }
 
 /* Projects Styles */
-.projects {
+#projects {
   width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.projects h2 {
-  width: 100%;
-  text-align: center;
-}
+
 
 .project {
   width: 100%;
@@ -147,7 +146,7 @@ figure {
   
 }
 
-.repo-generator {
+iframe {
   width: 100%;
   display: flex;
   justify-content: center;
