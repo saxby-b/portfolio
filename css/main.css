@@ -79,6 +79,7 @@ ul.navigation {
   justify-self: center;
   align-items: center;
   /* padding: 0;*/
+  margin-bottom: 10px;
 }
 .navigation li {
   list-style-type: none;
@@ -98,6 +99,13 @@ ul.navigation {
  /* color: #351d77; */
  color: #EEE4F0;
 } 
+
+/*Divide Styles */
+.divide {
+  background-color: #EC91C4;
+  height: 2px;
+  width: 100%;
+}
 
 /*Intro Styles */
 .intro {
@@ -171,9 +179,10 @@ iframe {
   border: 2px solid #fff;
 } 
 
-.project h3, .project p {
+ .project h3, .project p {
   width: 100%;
   text-align: center;
+ 
 }
 
 .site {
@@ -185,9 +194,11 @@ iframe {
 }
 .site h4 a {
   text-decoration: none;
-  background-color: #351D77;
+  /*background-color: #351D77; */
+  background-color: #EC91C4;
   padding: 5px;
-  color: #EEE4F0;
+ /* color: #EEE4F0; */
+ color: #000;
 
 
 }
