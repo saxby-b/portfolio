@@ -84,10 +84,14 @@ ul.navigation {
   list-style-type: none;
   width: 40%;
   /* padding: 0;*/
+  margin-bottom: 25px;
 }
 .navigation li a:hover {
   background-color: #351D77; 
  color: #E8F0E4; 
+ padding: 20px;
+ border: 1px solid #351D77;
+ border-radius: 25%;
 
   padding: 5px;
   border-radius: 5%;
