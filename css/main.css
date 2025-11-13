@@ -12,20 +12,20 @@
    ========================================================================== */
 
 html {
-  color: #222; 
+  color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
 
 /*General Styles*/
 body {
-  background-color: #e8f0e4; 
- 
+  background-color: #e8f0e4;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  color: #351d77; 
+  color: #351d77;
 }
 
 .content-wrapper {
@@ -87,23 +87,23 @@ ul.navigation {
   margin-bottom: 25px;
 }
 .navigation li a:hover {
-  background-color: #351D77; 
- color: #E8F0E4; 
- padding: 20px;
- border: 1px solid #351D77;
- border-radius: 25%;
+  background-color: #351d77;
+  color: #e8f0e4;
+  padding: 20px;
+  border: 1px solid #351d77;
+  border-radius: 25%;
 
   padding: 5px;
   border-radius: 5%;
 }
 .navigation li a {
   text-decoration: none;
-  color: #351d77; 
-} 
+  color: #351d77;
+}
 
 /*Divide Styles */
 .divide {
-  background-color: #EC91C4;
+  background-color: #ec91c4;
   height: 2px;
   width: 100%;
 }
@@ -111,12 +111,11 @@ ul.navigation {
 /*Intro Styles */
 .intro {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
-    padding-bottom: 40px;
-
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-bottom: 40px;
 }
 
 .intro p {
@@ -131,7 +130,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EEE4F0;
+  background-color: #eee4f0;
 }
 
 /* Projects Styles */
@@ -143,15 +142,11 @@ main {
   flex-flow: row wrap;
 }
 
-
-
 .project {
   width: 100%;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .project-img {
   display: flex;
@@ -165,16 +160,15 @@ main {
 }
 .projct-img.tall img {
   width: 100%;
-
 }
 .cat-rescue {
   border: 2px solid #fff;
-} 
+}
 
- .project h3, .project p {
+.project h3,
+.project p {
   width: 100%;
   text-align: center;
- 
 }
 
 .site {
@@ -186,12 +180,10 @@ main {
 }
 .site h4 a {
   text-decoration: none;
-  background-color: #351D77; 
+  background-color: #351d77;
 
   padding: 5px;
- color: #EEE4F0; 
-
-
+  color: #eee4f0;
 }
 
 /*Project Skills and Tools Styles */
@@ -201,42 +193,39 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  }
+}
 
- .project .skills ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+.project .skills ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-  .skills li {
-    list-style-type: none;
-    margin-bottom: 10px;
-    background-color: #F4BEDC;
-    padding: 5px;
-   /* border-radius: 25%;
+.skills li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  background-color: #f4bedc;
+  padding: 5px;
+  /* border-radius: 25%;
     border: 2px solid #351D77;*/
-  }
+}
 
-  .project .tools {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+.project .tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  .tools li {
-    list-style-type: none;
-    margin-bottom: 10px;
-    padding: 5px;
-    background-color: #D4D3E9;
-  }
-
-
-
+.tools li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #d4d3e9;
+}
 
 /*
  * Remove text-shadow in selection highlight:
