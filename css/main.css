@@ -234,7 +234,19 @@ main {
 #skills {
   margin-top: 40px;
   background-color: #e8f0e4;
-  width: 120%;
+  width: 100%;
+}
+
+.skills, .tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.skills h3, .tools h3 {
+  width: 100%;
+  text-align: center;
 }
 
 /*
