@@ -19,7 +19,7 @@ html {
 
 /*General Styles*/
 body {
-  background-color: #e8f0e4;
+ /* background-color: #e8f0e4; */
 
   display: flex;
   justify-content: center;
@@ -53,6 +53,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+   background-color: #e8f0e4;
 }
 
 /*Nav Section*/
@@ -130,7 +131,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eee4f0;
+ /* background: #eee4f0; */
 }
 
 /* Projects Styles */
@@ -140,6 +141,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+   background: #eee4f0;
 }
 
 .project {
@@ -225,6 +227,15 @@ main {
   margin-bottom: 10px;
   padding: 5px;
   background-color: #d4d3e9;
+}
+
+/*Skills Styles */
+
+ #skills {
+  margin-top: 40px;
+  background-color: #e8f0e4;
+  width: 120%;
+  
 }
 
 /*
