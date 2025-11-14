@@ -258,14 +258,39 @@ main {
   width: 100%;
 }
 
-.prof img {
+.prof-img {
   display: flex;
   justify-content: center;
   background-color: white;
   width: 100%;
 }
-#contact img {
+#about img {
   height: 250px;
+}
+
+/* Footer and Contact Styles */
+footer /*Used to be #contact */ {
+  background-color: #e8f0e4;
+  width: 100%;
+
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  list-style-type: none;
+  width: 20%;
+  color:#351d77;
 }
 /*
  * Remove text-shadow in selection highlight:
