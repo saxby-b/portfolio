@@ -275,9 +275,22 @@ footer /*Used to be #contact */ {
 
 }
 
+.contact h2, .social h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.email {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .social {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   width: 100%;
 }
 
@@ -285,12 +298,23 @@ footer /*Used to be #contact */ {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .social li {
   list-style-type: none;
+}
+
+.social li a {
   width: 20%;
+  padding-right: 20px;
   color:#351d77;
+}
+
+.year {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 /*
  * Remove text-shadow in selection highlight:
