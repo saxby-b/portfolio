@@ -238,6 +238,15 @@ main {
   width: 100%;
 }
 
+ #skills .skills li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  background-color: #f4bedc;
+  padding: 5px;
+  
+  
+}
+
 .skills, .tools {
   display: flex;
   justify-content: center;
