@@ -306,7 +306,7 @@ footer /*Used to be #contact */ {
 
 .social ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 }
