@@ -88,11 +88,12 @@ ul.navigation {
   margin-bottom: 25px;
 }
 .navigation li a:hover {
-  background-color: #351d77;
+/*  background-color: #351d77; */
+background-color: #ec91c4;
   color: #e8f0e4;
-  padding: 20px;
+  padding: 40px;
   border: 1px solid #351d77;
-  border-radius: 25%;
+  border-radius: 100%;
 
   padding: 5px;
   border-radius: 5%;
