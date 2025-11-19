@@ -105,7 +105,8 @@ background-color: #ec91c4;
 
 /*Divide Styles */
 .divide {
-  background-color: #ec91c4;
+  background-color: #fff;
+ /* background-color: #ec91c4; */
   height: 2px;
   width: 100%;
 }
@@ -142,7 +143,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: #eee4f0;
+  background-color: #fff;
+ /* background: #eee4f0; */
   padding-top: 40px;
 }
 
@@ -501,6 +503,7 @@ textarea {
 
  #projects .content-wrapper {
   flex-flow: row wrap;
+  align-items: flex-start;
  }
 
  #projects .content-wrapper h2 {
