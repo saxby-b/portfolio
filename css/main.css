@@ -501,6 +501,10 @@ textarea {
 @media  (min-device-width: 768px) {
  /*Project Styles */
 
+ main {
+  flex-flow: row wrap;
+ }
+
  #projects .content-wrapper {
   flex-flow: row wrap;
   align-items: flex-start;
