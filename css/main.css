@@ -499,11 +499,11 @@ textarea {
    ========================================================================== */
 
 @media  (min-device-width: 768px) {
- /*Project Styles */
-
- main {
+  main {
   flex-flow: row wrap;
  }
+ 
+  /*Project Styles */
 
  #projects .content-wrapper {
   flex-flow: row wrap;
@@ -517,6 +517,28 @@ textarea {
  .project {
   width: 40%;
   margin-right: 20px;
+ }
+
+ /*Skills and Tools Styles */
+
+ .skills, .tools {
+  width: 100%;
+ }
+
+ .skills h2, .tools h2 {
+  width: 100%;
+  text-align: center;
+ }
+
+ .skills ul, .tools ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+ }
+
+ .skills li, .tools li {
+  margin: 0px 5px;
  }
 
 
