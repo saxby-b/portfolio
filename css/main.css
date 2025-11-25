@@ -181,16 +181,15 @@ main {
 .site {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   width: 100%;
   padding-bottom: 20px; /*Maybe increase*/
 }
 .site h4 a {
   text-decoration: none;
   background-color: #351d77;
-
-  padding: 5px;
-  color: #eee4f0;
+  border-radius: 45%;
+  padding: 10px;
+  color: #fff;
 }
 
 /*Project Skills and Tools Styles */
@@ -524,7 +523,6 @@ textarea {
 
  div.site {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
  }
 
