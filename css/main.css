@@ -497,6 +497,7 @@ textarea {
  #projects .content-wrapper {
   flex-flow: row wrap;
   align-items: flex-start;
+  justify-content: space-around;
  }
 
  #projects .content-wrapper h2 {
@@ -506,12 +507,15 @@ textarea {
  .project {
   width: 40%;
   margin-right: 20px;
-  width: 40%;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+ flex-flow: row wrap;
  }
 
- div.project-img {
+ /*div.project-img img{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
+ } */
 
  .project .skills, .project .tools {
   display: flex;
