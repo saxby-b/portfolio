@@ -549,6 +549,16 @@ textarea {
   }
 }
 
+/*About Styles */
+
+.prof-img {
+  width: 40%;
+}
+
+.about-text {
+  width: 40%;
+}
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
