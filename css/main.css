@@ -596,6 +596,18 @@ textarea {
   .about-text {
     width: 40%;
   }
+
+  /*Footer Styles */
+  #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column wrap;
+  }
+  .email, .social {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
