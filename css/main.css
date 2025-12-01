@@ -603,6 +603,19 @@ h1 {
   font-size: 4em;
 }
 
+/* Project Styles */
+
+.project {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.dv-stretch {
+  align-self: stretch;
+}
+
+
+
 }
 
 @media print,
