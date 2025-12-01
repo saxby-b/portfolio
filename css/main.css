@@ -297,6 +297,17 @@ footer /*Used to be #contact */ {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+.email a {
+  width: 100%;
+  text-align: center;
+}
+
+.email p {
+  width: 100%;
+  text-align: center;
 }
 .social {
   display: flex;
