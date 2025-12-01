@@ -267,6 +267,11 @@ div.tools ul {
   background-color: white;
   width: 100%;
 }
+
+#about p {
+  width: 100%;
+  text-align: center;
+}
 #about img {
   height: 250px;
 }
@@ -495,7 +500,7 @@ textarea {
     text-align: center;
   }
   .project {
-    width: 40%;
+    width: 45%;
     margin-right: 20px;
     display: flex;
     justify-content: center;
@@ -525,9 +530,9 @@ textarea {
     align-items: flex-end;
   }
 
-  .extend {
-    padding-top: 20px;
-  }
+ .extend {
+    padding-bottom: 30px;
+  } 
 
   /*Skills and Tools Styles */
 
@@ -558,7 +563,7 @@ textarea {
   .tools li {
     margin: 0px 5px;
   }
-}
+
 
 /*About Styles */
 #about .content-wrapper {
@@ -571,6 +576,8 @@ textarea {
 
 .about-text {
   width: 40%;
+}
+
 }
 
 @media print,
