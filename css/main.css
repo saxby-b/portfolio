@@ -99,6 +99,13 @@ ul.navigation {
   color: #351d77;
 }
 
+.highlight {
+   background-color: #d4d3e9;
+  padding: 10px;
+  border-radius: 45%;
+  text-align: center;
+}
+
 /*Divide Styles */
 .divide {
   background-color: #fff;
