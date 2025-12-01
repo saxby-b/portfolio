@@ -210,6 +210,10 @@ main {
   margin-top: 40px;
   background-color: #e8f0e4;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
 
 #skills .skills li {
@@ -614,7 +618,16 @@ h1 {
   align-self: stretch;
 }
 
+/*Skills and Tools Styles */
 
+#skills .skills ul, #skills .tools ul {
+  width: 40%;
+}
+
+#skills .skills li, #skills .tools li {
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
 
 }
 
