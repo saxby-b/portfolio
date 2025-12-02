@@ -268,7 +268,7 @@ div.tools ul {
 /* About Styles */
 
 #about {
-  margin-top: 40px;
+  margin: 40px 0;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -333,8 +333,17 @@ footer /*Used to be #contact */ {
   width: 100%;
 }
 
+
 .social li {
   list-style-type: none;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social i {
+  font-size: 3.75em;
 }
 
 .social li a {
@@ -513,6 +522,10 @@ textarea {
 
   /*Project Styles */
 
+  #projects {
+    margin: 40px 0;
+  }
+
   #projects .content-wrapper {
     flex-flow: row wrap;
     align-items: flex-start;
@@ -607,9 +620,13 @@ textarea {
     width: 100%;
     flex-flow: column wrap;
   }
+
   .email, .social {
     width: 40%;
+    align-self: flex-start;
   }
+
+
 }
 
 @media only screen and (min-width: 1200px) {
