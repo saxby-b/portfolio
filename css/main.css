@@ -340,9 +340,9 @@ footer /*Used to be #contact */ {
 .social li {
   list-style-type: none;
   width: 60%;
-  display: flex;
+ /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .social i {
@@ -680,7 +680,7 @@ textarea {
   /*Footer Styles */
 
   div.social {
-    justify-content: center;
+    justify-content: flex-end;
   }
   .social ul {
     justify-content: center;
