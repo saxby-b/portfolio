@@ -676,6 +676,23 @@ textarea {
     margin-bottom: 10px;
     font-size: 1.25em;
   }
+
+  /*Footer Styles */
+
+  div.social {
+    justify-content: center;
+  }
+  .social ul {
+    justify-content: center;
+  }
+
+  .social li {
+    width: 20%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
 }
 
 @media print,
