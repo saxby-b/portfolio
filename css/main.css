@@ -312,6 +312,9 @@ footer /*Used to be #contact */ {
 .email a {
   width: 100%;
   text-align: center;
+  color: #351d77;
+  text-decoration: none;
+  font-size: 1.253em;
 }
 
 .email p {
