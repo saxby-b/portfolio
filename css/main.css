@@ -99,7 +99,7 @@ ul.navigation {
   color: #351d77;
 }
 
-.highlight {
+.highlight a {
    background-color: #d4d3e9;
   padding: 10px;
   border-radius: 45%;
