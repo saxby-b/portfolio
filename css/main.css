@@ -89,7 +89,7 @@ ul.navigation {
 }
 .navigation li a:hover {
   /*  background-color: #351d77; */
-  background-color: #d4d3e9;
+  background-color: #EEE4F0;
   padding: 10px;
   /*border: 1px solid #351d77; */
   border-radius: 45%;
@@ -196,6 +196,11 @@ main {
   padding: 20px 60px;
   color: #fff;
   width: 100%;
+}
+
+.site button:hover {
+  background-color: #EEE4F0;
+  color:#351d77;
 }
 
 /*Project Skills and Tools Styles */
