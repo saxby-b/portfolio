@@ -271,6 +271,10 @@ main {
   text-align: center;
 }
 
+.skills li, .tools li {
+  font-size: 1.125em;
+}
+
 .project .tools {
   display: flex;
   justify-content: center;
@@ -289,6 +293,8 @@ div.tools ul {
   padding: 5px;
   background-color: #d4d3e9;
 }
+
+
 
 /* About Styles */
 
@@ -592,6 +598,10 @@ textarea {
     align-self: stretch;
   }
 
+ /* .project.stretch .site {
+    align-self: self-end;
+  } */
+
   /* div.project-img img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -606,11 +616,12 @@ textarea {
   div.site {
     display: flex;
     align-items: flex-end;
+    align-self: self-end;
   }
 
-  .extend {
+ /* .extend {
     padding-bottom: 30px;
-  }
+  } */
 
   /*Skills and Tools Styles */
 
