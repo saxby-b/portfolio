@@ -42,7 +42,7 @@ h3 {
   font-family: "Alata", serif;
 }
 
-h1 { 
+h1 {
   font-size: 2.25em;
 }
 
@@ -53,7 +53,6 @@ h2 {
 h3 {
   font-size: 1.25em;
 }
-
 
 p {
   font-family: "Nunito Sans", sans-serif;
@@ -102,11 +101,11 @@ ul.navigation {
   width: 30%;
   /* padding: 0;*/
   margin-bottom: 25px;
-  font-size: 1.25em; 
+  font-size: 1.25em;
 }
 .navigation li a:hover {
   /*  background-color: #351d77; */
-  background-color: #EEE4F0;
+  background-color: #eee4f0;
   padding: 10px;
   /*border: 1px solid #351d77; */
   border-radius: 45%;
@@ -216,8 +215,8 @@ main {
 }
 
 .site button:hover {
-  background-color: #EEE4F0;
-  color:#351d77;
+  background-color: #eee4f0;
+  color: #351d77;
 }
 
 /*Project Skills and Tools Styles */
@@ -549,8 +548,8 @@ textarea {
   h2 {
     font-size: 2.25em;
   }
-  
-    h3 {
+
+  h3 {
     font-size: 1.5em;
   }
   main {
@@ -671,6 +670,18 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
   /* General Styles */
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-size: 1.875em;
+  }
+
   p {
     font-size: 1.25em;
   }
