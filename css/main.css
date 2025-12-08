@@ -102,6 +102,9 @@ ul.navigation {
   /* padding: 0;*/
   margin-bottom: 25px;
   font-size: 1.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navigation li a:hover {
   /*  background-color: #351d77; */
@@ -165,7 +168,7 @@ main {
 
 #projects div.content-wrapper h2 {
   padding-bottom: 40px;
-  font-size: 36px;
+ /* font-size: 36px; */
 }
 
 .project {
@@ -203,7 +206,7 @@ main {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding-bottom: 20px; /*Maybe increase*/
+  margin-bottom: 60px; /*Maybe increase*/
 }
 .site button {
   text-decoration: none;
@@ -675,7 +678,7 @@ textarea {
   }
 
   h2 {
-    font-size: 2.25em;
+    font-size: 2.5em;
   }
 
   h3 {
