@@ -253,7 +253,9 @@ main {
 #skills .skills li {
   list-style-type: none;
   margin-bottom: 10px;
-  background-color: #f4bedc;
+ /* background-color: #f4bedc; */
+ /*background-color: #eee4f0; */
+ background-color: #fff;
   padding: 5px;
 }
 
@@ -560,6 +562,7 @@ textarea {
 
   h3 {
     font-size: 1.5em;
+    margin-top: 20px;
   }
   main {
     flex-flow: row wrap;
