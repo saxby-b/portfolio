@@ -111,7 +111,8 @@ ul.navigation {
   background-color: #eee4f0;
   padding: 10px;
   /*border: 1px solid #351d77; */
-  border-radius: 45%;
+ /* border-radius: 45%; */
+ border-radius: 12px;
 }
 .navigation li a {
   text-decoration: none;
@@ -121,7 +122,8 @@ ul.navigation {
 .highlight a {
   background-color: #d4d3e9;
   padding: 10px;
-  border-radius: 45%;
+ /* border-radius: 45%; */
+ border-radius: 12px;
   text-align: center;
 }
 
@@ -196,6 +198,10 @@ main {
   border: 2px solid #fff;
 }
 
+.project h3 {
+  align-self: self-start;
+}
+
 .project h3,
 .project p {
   width: 100%;
@@ -210,9 +216,9 @@ main {
 }
 .site a {
   text-decoration: none;
-  background-color: #351d77;
+  background-color: #351d77; 
   border-radius: 12px;
-  padding: 20px 60px;
+  padding: 10px 60px;
   color: #fff;
   width: 100%;
 }
@@ -268,7 +274,7 @@ main {
 }
 
 .skills h3,
-.tools h3 {
+.tools h3, .skills h2 {
   width: 100%;
   text-align: center;
 }
@@ -284,7 +290,7 @@ main {
   flex-flow: row wrap;
 }
 
-div.tools ul {
+div.tools ul, .skills ul {
   padding: 0;
   margin: 0;
 }
