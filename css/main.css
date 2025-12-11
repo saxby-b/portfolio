@@ -262,15 +262,18 @@ main {
  /* background-color: #f4bedc; */
  /*background-color: #eee4f0; */
  background-color: #fff;
-  padding: 5px;
+  padding: 10px 20px;
+  width: 35%;
 }
 
 .skills,
 .tools {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: column wrap;
+  margin-bottom: 60px;
+  width: 100%;
 }
 
 .skills h3,
@@ -281,6 +284,9 @@ main {
 
 .skills li, .tools li {
   font-size: 1.125em;
+  text-align: center;
+  
+
 }
 
 .project .tools {
@@ -300,6 +306,7 @@ div.tools ul, .skills ul {
   margin-bottom: 10px;
   padding: 5px;
   background-color: #d4d3e9;
+   padding: 10px 20px;
 }
 
 
@@ -737,15 +744,16 @@ textarea {
 
   /*Skills and Tools Styles */
 
-  #skills .skills ul,
+  /*#skills .skills ul,
   #skills .tools ul {
     width: 40%;
-  }
+  } */
 
   #skills .skills li,
   #skills .tools li {
     margin-bottom: 10px;
     font-size: 1.25em;
+    width: 25%;
   }
 
   /*Footer Styles */
