@@ -208,7 +208,7 @@ main {
   width: 100%;
   margin-bottom: 60px; /*Maybe increase*/
 }
-.site button {
+.site a {
   text-decoration: none;
   background-color: #351d77;
   border-radius: 12px;
@@ -217,7 +217,7 @@ main {
   width: 100%;
 }
 
-.site button:hover {
+.site a:hover {
   background-color: #eee4f0;
   color: #351d77;
 }
