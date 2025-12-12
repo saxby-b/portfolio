@@ -400,6 +400,10 @@ footer /*Used to be #contact */ {
   color: #351d77;
 }
 
+.social li a:hover {
+  color: #F8D697;
+}
+
 .year {
   display: flex;
   justify-content: center;
