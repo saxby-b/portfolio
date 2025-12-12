@@ -263,7 +263,6 @@ main {
  /*background-color: #eee4f0; */
  background-color: #fff;
   padding: 10px 20px;
-  width: 35%;
 }
 
 .skills,
@@ -281,10 +280,17 @@ main {
   width: 100%;
   text-align: center;
 }
-
+#skills ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
 .skills li, .tools li {
   font-size: 1.125em;
   text-align: center;
+  width: 100%;
   
 
 }
@@ -298,13 +304,13 @@ main {
 
 div.tools ul, .skills ul {
   padding: 0;
-  margin: 0;
+  margin: 0; 
 }
 
 .tools li {
   list-style-type: none;
   margin-bottom: 10px;
-  padding: 5px;
+ /* padding: 5px; */
   background-color: #d4d3e9;
    padding: 10px 20px;
 }
@@ -670,7 +676,8 @@ textarea {
 
   .skills li,
   .tools li {
-    margin: 0px 5px;
+    margin: 5px 5px;
+    width: 40%;
   }
 
   /*About Styles */
