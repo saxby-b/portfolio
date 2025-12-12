@@ -111,8 +111,8 @@ ul.navigation {
   background-color: #eee4f0;
   padding: 10px;
   /*border: 1px solid #351d77; */
- /* border-radius: 45%; */
- border-radius: 12px;
+  /* border-radius: 45%; */
+  border-radius: 12px;
 }
 .navigation li a {
   text-decoration: none;
@@ -122,8 +122,8 @@ ul.navigation {
 .highlight a {
   background-color: #d4d3e9;
   padding: 10px;
- /* border-radius: 45%; */
- border-radius: 12px;
+  /* border-radius: 45%; */
+  border-radius: 12px;
   text-align: center;
 }
 
@@ -170,7 +170,7 @@ main {
 
 #projects div.content-wrapper h2 {
   padding-bottom: 40px;
- /* font-size: 36px; */
+  /* font-size: 36px; */
 }
 
 .project {
@@ -216,7 +216,7 @@ main {
 }
 .site a {
   text-decoration: none;
-  background-color: #351d77; 
+  background-color: #351d77;
   border-radius: 12px;
   padding: 10px 60px;
   color: #fff;
@@ -259,9 +259,9 @@ main {
 #skills .skills li {
   list-style-type: none;
   margin-bottom: 10px;
- /* background-color: #f4bedc; */
- /*background-color: #eee4f0; */
- background-color: #fff;
+  /* background-color: #f4bedc; */
+  /*background-color: #eee4f0; */
+  background-color: #fff;
   padding: 10px 20px;
 }
 
@@ -276,7 +276,8 @@ main {
 }
 
 .skills h3,
-.tools h3, .skills h2 {
+.tools h3,
+.skills h2 {
   width: 100%;
   text-align: center;
 }
@@ -287,12 +288,11 @@ main {
   flex-flow: row wrap;
   width: 100%;
 }
-.skills li, .tools li {
+.skills li,
+.tools li {
   font-size: 1.125em;
   text-align: center;
   width: 100%;
-  
-
 }
 
 .project .tools {
@@ -302,20 +302,19 @@ main {
   flex-flow: row wrap;
 }
 
-div.tools ul, .skills ul {
+div.tools ul,
+.skills ul {
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
 
 .tools li {
   list-style-type: none;
   margin-bottom: 10px;
- /* padding: 5px; */
+  /* padding: 5px; */
   background-color: #d4d3e9;
-   padding: 10px 20px;
+  padding: 10px 20px;
 }
-
-
 
 /* About Styles */
 
@@ -391,7 +390,7 @@ footer /*Used to be #contact */ {
 
 .social li {
   list-style-type: none;
- /* width: 60%; */
+  /* width: 60%; */
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -408,7 +407,7 @@ footer /*Used to be #contact */ {
 }
 
 .social li a:hover {
-  color: #F8D697;
+  color: #f8d697;
 }
 
 .year {
@@ -625,7 +624,7 @@ textarea {
     align-self: stretch;
   }
 
- /* .project.stretch .site {
+  /* .project.stretch .site {
     align-self: self-end;
   } */
 
@@ -646,7 +645,7 @@ textarea {
     align-self: self-end;
   }
 
- /* .extend {
+  /* .extend {
     padding-bottom: 30px;
   } */
 
