@@ -383,14 +383,15 @@ footer /*Used to be #contact */ {
 
 .social ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 0;
 }
 
 .social li {
   list-style-type: none;
-  width: 60%;
+ /* width: 60%; */
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -707,6 +708,10 @@ textarea {
     width: 40%;
     align-self: flex-start;
   }
+
+  .social ul {
+    justify-content: space-around;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -773,7 +778,7 @@ textarea {
     justify-content: flex-end;
   }
   .social ul {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .social li {
