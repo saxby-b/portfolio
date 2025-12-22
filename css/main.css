@@ -346,6 +346,12 @@ footer /*Used to be #contact */ {
   width: 100%;
 }
 
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact h2,
 .social h2 {
   width: 100%;
