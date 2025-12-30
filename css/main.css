@@ -558,7 +558,7 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media (min-device-width: 768px) {
+@media screen and (min-width: 768px) {
   /*General Styles */
 
   h1 {
@@ -820,13 +820,6 @@ textarea {
   img {
     page-break-inside: avoid;
   }
-
-  /* p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  } */
 
   h2,
   h3 {
