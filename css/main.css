@@ -659,7 +659,12 @@ textarea {
 
   .prof-img {
     width: 40%;
-  }
+  } 
+
+  #about img {
+    object-fit: contain;
+    width: 100%;
+  } 
 
   .about-text {
     width: 40%;
@@ -733,6 +738,7 @@ textarea {
     align-self: stretch;
   }
 
+
   /*Skills and Tools Styles */
 
   #skills .skills li,
@@ -742,7 +748,21 @@ textarea {
     width: 25%;
   }
 
+   /*About Styles*/
+  #about {
+    height: 400px;
+  }
+
   /*Footer Styles */
+
+  #contact {
+    height: 400px;
+  }
+
+  #contact .content-wrapper {
+    height: 100%;
+    padding-top: 30px;
+  }
 
   div.social {
     justify-content: flex-end;
@@ -750,6 +770,11 @@ textarea {
   .social ul {
     justify-content: center;
   }
+
+  .year {
+    align-items: flex-end;
+  }
+
 }
 
 @media print,
