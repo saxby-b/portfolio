@@ -177,7 +177,9 @@ main {
 .project-img img {
   width: 100%;
   object-fit: contain;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cat-rescue {
@@ -659,12 +661,12 @@ textarea {
 
   .prof-img {
     width: 40%;
-  } 
+  }
 
   #about img {
     object-fit: contain;
     width: 100%;
-  } 
+  }
 
   .about-text {
     width: 40%;
@@ -738,7 +740,6 @@ textarea {
     align-self: stretch;
   }
 
-
   /*Skills and Tools Styles */
 
   #skills .skills li,
@@ -748,7 +749,7 @@ textarea {
     width: 25%;
   }
 
-   /*About Styles*/
+  /*About Styles*/
   #about {
     height: 400px;
   }
@@ -774,7 +775,6 @@ textarea {
   .year {
     align-items: flex-end;
   }
-
 }
 
 @media print,
