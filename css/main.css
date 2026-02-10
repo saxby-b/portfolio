@@ -18,7 +18,6 @@ html {
 }
 
 /*General Styles*/
-
 body {
   display: flex;
   justify-content: center;
@@ -59,7 +58,6 @@ p {
 }
 
 /***Header Styles ***/
-
 header {
   width: 100%;
   display: flex;
@@ -69,7 +67,6 @@ header {
 }
 
 /*Nav Section*/
-
 nav {
   width: 100%;
   display: flex;
@@ -143,7 +140,6 @@ ul.navigation {
 }
 
 /*** Main Section Styles ***/
-
 main {
   width: 100%;
 }
@@ -217,7 +213,6 @@ main {
 }
 
 /*Project Skills and Tools Styles */
-
 .project .skills {
   display: flex;
   justify-content: center;
@@ -233,7 +228,6 @@ main {
 }
 
 /*Skills Styles */
-
 #skills {
   margin-top: 40px;
   background-color: #e8f0e4;
@@ -302,7 +296,6 @@ div.tools ul,
 }
 
 /* About Styles */
-
 #about {
   margin: 40px 0;
   display: flex;
@@ -562,7 +555,6 @@ textarea {
 
 @media screen and (min-width: 768px) {
   /*General Styles */
-
   h1 {
     font-size: 3em;
   }
@@ -579,7 +571,6 @@ textarea {
   }
 
   /*Project Styles */
-
   #projects {
     margin: 40px 0;
   }
@@ -624,7 +615,6 @@ textarea {
   }
 
   /*Skills and Tools Styles */
-
   .abilities {
     padding-bottom: 40px;
   }
@@ -715,7 +705,6 @@ textarea {
   }
 
   /*Header Styles */
-
   nav {
     width: 100%;
     justify-content: flex-end;
@@ -730,7 +719,6 @@ textarea {
   }
 
   /* Project Styles */
-
   .project {
     width: 30%;
     margin-bottom: 40px;
@@ -741,7 +729,6 @@ textarea {
   }
 
   /*Skills and Tools Styles */
-
   #skills .skills li,
   #skills .tools li {
     margin-bottom: 10px;
@@ -755,7 +742,6 @@ textarea {
   }
 
   /*Footer Styles */
-
   #contact {
     height: 400px;
   }
