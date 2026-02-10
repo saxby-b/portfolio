@@ -81,6 +81,7 @@ nav .content-wrapper {
   align-items: center;
   flex-direction: row;
 }
+
 ul.navigation {
   display: flex;
   flex-direction: row;
@@ -91,6 +92,7 @@ ul.navigation {
   margin-left: 0;
   padding-left: 0;
 }
+
 .navigation li {
   list-style-type: none;
   width: 30%;
@@ -100,11 +102,13 @@ ul.navigation {
   justify-content: center;
   align-items: center;
 }
+
 .navigation li a:hover {
   background-color: #eee4f0;
   padding: 10px;
   border-radius: 12px;
 }
+
 .navigation li a {
   text-decoration: none;
   color: #351d77;
@@ -198,6 +202,7 @@ main {
   width: 100%;
   margin-bottom: 60px;
 }
+
 .site a {
   text-decoration: none;
   background-color: #351d77;
@@ -261,6 +266,7 @@ main {
   width: 100%;
   text-align: center;
 }
+
 #skills ul {
   display: flex;
   justify-content: center;
@@ -268,6 +274,7 @@ main {
   flex-flow: row wrap;
   width: 100%;
 }
+
 .skills li,
 .tools li {
   font-size: 1.125em;
@@ -314,6 +321,7 @@ div.tools ul,
   width: 100%;
   text-align: center;
 }
+
 #about img {
   height: 250px;
 }
@@ -356,6 +364,7 @@ footer {
   width: 100%;
   text-align: center;
 }
+
 .social {
   display: flex;
   justify-content: center;
@@ -395,6 +404,7 @@ footer {
   justify-content: center;
   width: 100%;
 }
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -558,6 +568,7 @@ textarea {
   h1 {
     font-size: 3em;
   }
+  
   h2 {
     font-size: 2.25em;
   }
