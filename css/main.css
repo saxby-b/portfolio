@@ -188,12 +188,12 @@ main {
 
 .project h3 {
   align-self: self-start;
+  text-align: center;
 }
 
 .project h3,
 .project p {
   width: 100%;
-  text-align: center;
 }
 
 .site {
@@ -319,7 +319,6 @@ div.tools ul,
 
 #about p {
   width: 100%;
-  text-align: center;
 }
 
 #about img {
