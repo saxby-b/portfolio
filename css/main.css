@@ -690,10 +690,10 @@ textarea {
   .social ul {
     justify-content: center;
   }
-}
 
-.social li {
-  margin: 0 30px;
+  .social li {
+    margin: 0 30px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
